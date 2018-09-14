@@ -1,0 +1,1131 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 21, 2015, 7:59:40 PM
+    Author     : Desktop
+*/
+
+@charset "utf-8";
+
+html * {
+    font-family:'Lato',sans-serif ;
+    family-weight:300 ;
+
+}
+.navbar-btn {
+    display: none!important;
+}
+
+/*@media (max-width: 767px) {
+
+.columnleft{
+     height: 50px;
+ }
+}*/
+
+
+.btn-primary{
+    background-color:#4B6196;  //4868B0
+}
+.btn-primary:focus,
+.btn-primary:hover{
+    background-color:#677A9E;  //4868B0
+}
+#number_notif{
+    background-color:red; 
+    color:white;
+    font-weight:bold;
+    font-size:15px;;
+    border-radius:40px;
+    box-shadow:1px 1px 1px gray;
+}
+
+.dropdown-menu li:hover{
+    background-color: #DED7B9;
+}
+.dividernotification{
+
+
+    border-style:solid;
+    border-width:1px;
+    border-color:#BFCAD9;
+    padding-left:10px;
+    padding-right: 10px;
+
+
+}
+.buttonTransparent{
+    background: transparent;
+    border: none !important;
+}
+.notification_events{
+    background: transparent;
+    border: none !important;
+    margin-top: 15px;
+}
+#notifications_events{
+    background: transparent;
+    border: none !important;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#help_button{
+    background: transparent;
+    //border: none !important;
+    //color:#677A9E;
+    color:black;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.helpButton{
+    border:none; 
+    color: #4B6196;
+    background-color: #E4E1F7;
+}
+.helpDiv{
+    margin-left: 25px;
+}
+#notification_button{
+
+    margin-top: 15px;
+}
+.modal-header{
+    color: white;
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        color-stop(0.2, #677A9E),
+        color-stop(1, #122B66)
+        );
+    background-image: -o-linear-gradient(bottom, #677A9E 20%, #122B66 100%);
+    background-image: -moz-linear-gradient(bottom, #677A9E 20%, #122B66 100%);
+    background-image: -webkit-linear-gradient(bottom, #677A9E 20%, #122B66 100%);
+    background-image: -ms-linear-gradient(bottom, #677A9E 20%, #122B66 100%);
+    background-image: linear-gradient(to bottom, #677A9E 20%, #122B66 100%);
+}
+.modal-header button{
+    color:white;
+}
+.modal-content{
+    background-color :#E4E1F7;
+
+}
+.modal-footer{
+
+    background-color :#E4E1F7;
+
+}
+
+input:required{
+    background: white;
+    background-image: none;
+
+}
+
+/*input:valid{
+    background: url("images/valid.png") no-repeat 96% center white;
+    background-size: 22px 22px;
+
+}*/
+input:required:valid{
+    //background: url("images/valid.png") no-repeat 96% center white;
+    background-size: 22px 22px;
+    border: 1px solid green;
+    box-shadow: 1px 1px 2px  green;
+}
+
+input:required:invalid:focus{
+    //background: url("images/invalid.png") no-repeat 96% center white;
+    background-size: 22px 22px;
+    border: 1px solid red;
+
+
+}
+
+
+/*input:invalid:blur{
+    background: url("images/invalid.png") no-repeat 96% center white;
+    background-size: 22px 22px;
+    border: 1px solid red;
+
+}*/
+
+#validPassword{
+    color:red;
+}
+
+
+#famcloud {
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        color-stop(0.2, #677A9E),
+        color-stop(1, #122B66)
+        );
+    background-image: -o-linear-gradient(bottom, #677A96E 20%, #122B66 100%);
+    background-image: -moz-linear-gradient(bottom, #677A9E 20%, #122B66 100%);
+    background-image: -webkit-linear-gradient(bottom, #677A9E 20%, #122B66 100%);
+    background-image: -ms-linear-gradient(bottom, #677A9E 20%, #122B66 100%);
+    background-image: linear-gradient(to bottom, #677A9E 20%, #122B66 100%);
+    margin-bottom : 0px;
+    border-bottom: 2px solid #7BA4DB;
+    font-size: 14px;
+}
+
+
+
+#siteheader{
+    margin-left:   60px;
+    margin-top : 30px;
+    font-size:   30px;
+}
+
+#famcloud .nav.navbar-nav {
+    margin-top : 30px;
+}
+
+/*------------------------------------- My family - My Profile - Home---------------------------------------------------------*/
+#threenav  li+li{
+    border-left: 1px solid #BACEF5;
+
+}
+
+#threenav  li a{
+    color : white;
+
+    margin-left:5px;
+    margin-right:5px;
+
+}
+#threenav  li a:hover,
+#threenav  li a:focus{
+    background-color :#C9B899;
+    color:#122B66;
+    border-radius: 6px;
+}
+
+
+
+
+
+/* ---------------------------Logout button----------------------------------------------*/
+#threenav1  li a{
+    color : white;
+
+    margin-left:60px;
+    margin-right:0px;
+}
+
+#threenav1  li a:hover,
+#threenav1  li a:focus{
+    background-color :#C9B899;
+    color:#122B66;
+    border-radius: 6px;
+}
+
+#collapseExample li a:hover {
+    text-decoration:none;
+    color:inherit;
+}
+
+#emailnav {
+    color : white;
+    margin-top : 45px;
+    margin-left : 45px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 2000px) {
+    #columnleft {
+
+
+        //background-color:#BACEF5;
+        background-color:#A6BADE;
+
+        min-height: 1250px;
+        border-right:2px solid #7BA4DB ;
+        //border-radius:15px;
+
+
+    }
+    #columnleft ul li:first-child a{
+        margin-top: 70px;
+
+    }
+}
+@media only screen  and (max-device-width : 767px)  {
+
+    .phoneMenu{
+        background-color: #677A96;
+        color:white;
+    }
+    
+    .phoneMenu:focus{
+        background-color:#122B66;
+        color:white;
+    }
+    #columnleft{
+        min-height: 1px;
+
+    }
+    #columnright {
+        min-height: 100px;
+    }
+    #help_button{
+        background: transparent;
+        //border: none !important;
+        //color:#677A9E;
+        color:black;
+        float: right;
+        //margin-bottom: 30px;
+    }
+    #notification_button{
+
+        margin-top: 30px;
+    }
+
+
+}
+
+.glyphmargin{
+    margin-right:10px;
+    margin-top: px;
+    margin-bottom: px;
+
+}
+
+
+#columnright {
+
+
+    background-color:#A6BADE;
+    min-height: 1250px;
+    border-left:2px solid #7BA4DB ;
+
+
+}
+
+#navstackedul{
+
+
+    float:right;
+    //margin-right: 20px;
+    width: 200px;
+
+
+}
+
+#navstackedul li a{
+
+    margin-top:25px;
+    margin-bottom: 25px;
+    font-weight: bold;
+    font-size: 15px;
+    //color:#122B66;
+    color:#2C3854;
+
+    background-color :#A6BADE; 
+    border-radius:0px;
+
+
+}
+
+
+#navstackedul li a:hover,
+#navstackedul li a:focus{
+
+    //background-color: #122B66;
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        color-stop(0.2, #677A9E),
+        color-stop(1, #122B66)
+        );
+    background-image: -o-linear-gradient(bottom, #677A9E 20%, #122B66 100%);
+    background-image: -moz-linear-gradient(bottom, #677A9E 20%, #122B66 100%);
+    background-image: -webkit-linear-gradient(bottom, #677A9E 20%, #122B66 100%);
+    background-image: -ms-linear-gradient(bottom, #677A9E 20%, #122B66 100%);
+    background-image: linear-gradient(to bottom, #677A9E 20%, #122B66 100%);
+    color: white;
+    font-size: 16px;
+    border-radius:20px;
+    // border: 1px solid #122B66;
+
+}
+
+#navstackedul li a span:hover,
+#navstackedul li a span:focus{
+
+    color: black;
+
+    font-size: 16px;
+
+
+
+}
+
+
+.blackdivider{
+
+
+    border-style:solid;
+    border-width:1px;
+    border-color:#2D364A;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.dividersignin{
+
+    border:1px solid #C1C5E8;
+
+}
+
+
+#MyFooter{
+
+    background-color:#677A9E;
+    width: 100%;
+    height: 90px;
+    color:white;
+    text-align: center;
+
+}
+
+#MyFooter p:last-child a{
+
+    color:white;
+    margin-left:15px;
+}
+
+
+
+
+/* ==============================================================        SIGN IN - SIGN UP==================================================================================================================================*/
+
+
+#signInPass{
+    background: white;
+    background-image: none;
+
+}
+
+#rPassword{
+    background: white;
+    background-image: none;
+}
+
+.validInput{
+    background: url("images/valid.png") no-repeat 96% center white;
+    background-size: 22px 22px;
+}
+.invalidInput{
+    background: url("images/invalid.png") no-repeat 96% center white;
+    background-size: 22px 22px;
+    border: 1px solid red;
+}
+
+
+
+#firstcontain{
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        color-stop(0.2, #677A9E),
+        color-stop(1, #122B66)
+        );
+    background-image: -o-linear-gradient(bottom, #677A9E 20%, #122B66 100%);
+    background-image: -moz-linear-gradient(bottom, #677A9E 20%, #122B66 100%);
+    background-image: -webkit-linear-gradient(bottom, #677A9E 20%, #122B66 100%);
+    background-image: -ms-linear-gradient(bottom, #677A9E 20%, #122B66 100%);
+    background-image: linear-gradient(to bottom, #677A9E 20%, #122B66 100%);
+
+    margin-bottom : 0px;
+    border-bottom: 2px solid #7BA4DB;
+
+    min-height:120px;
+
+}
+
+#columnleftsignup{
+
+    height: 800px;
+
+}
+.center{
+    text-align: center;
+}
+
+
+#loginbutton{
+    margin-left: 0px;
+
+}
+
+
+
+#signup{
+    background-color:#E1E9F7;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 80%;
+    margin: auto;
+    height: 350px;
+
+}
+
+
+#footersignup{
+
+    background-color: #677A9E;
+    width: 100%;
+    height: 90px;
+    text-align: center;
+    color:white;
+    bottom:0;
+
+
+}
+
+#footersignup p:last-child a{
+    color:white;
+    margin-left:15px;
+}
+
+#containersignin{
+    margin-left:auto;
+    margin-right:auto;
+}
+
+/* =============================================================================================TO DO LIST   ===================================================================================================================================-*/
+.datagrid table tbody tr:nth-child(even) {
+    background-color: #F2E6D3;
+}
+
+
+.datagrid table tbody tr:nth-child(odd) {
+    background-color: #FCF5EA;
+}
+.datagrid table { 
+    border-collapse: collapse;
+    text-align: left;
+    width: 100%; }
+.datagrid {font: normal 12px/150% Arial, Helvetica, sans-serif;
+           background: #fff;
+           overflow: hidden;
+           border: 6px solid #665944;
+           -webkit-border-radius: 3px;
+           -moz-border-radius: 3px;
+           border-radius: 8px; }
+.datagrid table td, .datagrid table th { padding: 10px 10px; }
+.datagrid table thead th {background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #665944), color-stop(1, #665944) );
+                          background-image: -webkit-gradient(
+                              linear,
+                              left top,
+                              left bottom,
+                              color-stop(0, #122B66),
+                              color-stop(1, #E0D4A6),
+                              color-stop(1, #677A96)
+                              );
+
+                          background-image: -webkit-gradient(
+                              linear,
+                              left top,
+                              left bottom,
+                              color-stop(0, #C7B08B),
+                              color-stop(1, #665944)
+                              );
+                          background-image: -o-linear-gradient(bottom, #C7B08B 0%, #665944 100%);
+                          background-image: -moz-linear-gradient(bottom, #C7B08B 0%, #665944 100%);
+                          background-image: -webkit-linear-gradient(bottom, #C7B08B 0%, #665944 100%);
+                          background-image: -ms-linear-gradient(bottom, #C7B08B 0%, #665944 100%);
+                          background-image: linear-gradient(to bottom, #C7B08B 0%, #665944 100%);
+                          filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#006699', endColorstr='#00557F');
+                          background-color:#006699;
+                          color:#FFFFFF;
+                          font-size: 15px;
+                          font-weight: bold;
+                          border-left: 1px solid #665944; }
+.datagrid table thead th:first-child { border: none; }
+.datagrid table tbody td { color: #00496B;
+                           border-left: 1px solid #C7B08B;
+                           font-size: 14px;
+                           font-weight: normal; }
+.datagrid table tbody .alt td { background: #E1EEF4; color: #00496B; }
+.datagrid table tbody td:first-child { border-left: none; }
+.datagrid table tbody tr:last-child td { border-bottom: none; }
+.datagrid table tfoot td div { border-top: 1px solid white;background:white;} 
+.datagrid table tfoot td { padding: 0; font-size: 12px } 
+.datagrid table tfoot td div{ padding: 2px; }
+.datagrid table tfoot td ul { margin: 0; padding:0; list-style: none; text-align: right; }
+.datagrid table tfoot  li { display: inline; }
+.datagrid table tfoot li a { text-decoration: none;
+                             display: inline-block;
+                             padding: 2px 8px;
+                             margin: 1px;color: black;
+                             border: 1px solid #006699;
+                             -webkit-border-radius: 3px; 
+                             -moz-border-radius: 3px; 
+                             border-radius: 3px;
+                             background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #C7B08B), color-stop(1, #C7B08B) );
+                             background:-moz-linear-gradient( center top, #C7B08B 5%, #C7B08B 100% );
+                             filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#006699', endColorstr='#00557F');
+                             background-color:#C7B08B; }
+.datagrid table tfoot ul.active, .datagrid table tfoot ul a:focus,
+.datagrid table tfoot ul.active, .datagrid table tfoot ul a:hover{ text-decoration: none;
+                                                                   border-color: #A38B64; color: #FFFFFF;
+                                                                   background: none;
+                                                                   background-color:#A38B64;}
+div.dhtmlx_window_active, div.dhx_modal_cover_dv { position: fixed !important; }
+
+/*.datagrid table { border-collapse: collapse; text-align: left; width: 100%; } .datagrid {font: normal 12px/150% Arial, Helvetica, sans-serif; background: #fff; overflow: hidden; border: 10px solid #3D78B8; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }.datagrid table td, .datagrid table th { padding: 7px 20px; }.datagrid table thead th {background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #7BA4D9), color-stop(1, #296DBA) );background:-moz-linear-gradient( center top, #7BA4D9 5%, #296DBA 100% );filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#7BA4D9', endColorstr='#296DBA');background-color:#7BA4D9; color:#FFFFFF; font-size: 14px; font-weight: bold; border-left: 0px solid #0070A8; } .datagrid table thead th:first-child { border: none; }.datagrid table tbody td { color: #00496B; border-left: 2px solid #E1EEF4;font-size: 13px;font-weight: normal; }.datagrid table tbody .alt td { background: #E1EEF4; color: #00496B; }.datagrid table tbody td:first-child { border-left: none; }.datagrid table tbody tr:last-child td { border-bottom: none; }*/
+
+
+#todoHeader {
+    border-bottom-color: #296DBA;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+}
+
+#todoHeader h3{
+    margin-left: 30px;
+    margin-top: 40px;
+}
+.dividerforall{
+    border-style:solid;
+    border-width:1px;
+    border-color:#7BA4DB;
+    width: 60%;
+}
+
+#addtaskbutton{
+    margin-left:60px;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+
+#scrolltable {
+    height:500px;
+    overflow-y: scroll;
+
+    margin-top:30px;
+    font-size:14px;
+
+}
+
+
+/* ==============================================================END TO DO LIST   ===================================================================================================================================-*/
+
+/* ===============================================================SHOPPING LIST   ===================================================================================================================================-*/
+#addproductbutton{
+    margin-left:40px;
+    margin-top:40px;
+}
+
+#printshoppingbutton{
+
+    margin-top:100px;
+
+}
+#printpreview{
+    margin-bottom:100px;
+
+    .datagrids table { 
+        border-collapse: collapse;
+        text-align: left;
+        width: 100%; }
+    .datagrids {font: normal 12px/150% Arial, Helvetica, sans-serif;
+                background: #fff;
+                overflow: hidden;
+                border: 2px solid #4F7DB8;
+                -webkit-border-radius: 3px;
+                -moz-border-radius: 3px;
+                border-radius: 8px; }
+    .datagrids table td, .datagrids table th { padding: 3px 10px; }
+    .datagrids table thead th {background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #006699), color-stop(1, #00557F) );
+                               background:-moz-linear-gradient( center top, #296DBA 5%, #7BA4D9 100% );
+                               filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#006699', endColorstr='#00557F');
+                               background-color:#006699;
+                               color:#FFFFFF;
+                               font-size: 15px;
+                               font-weight: bold;
+                               border-left: 1px solid #0070A8; }
+    .datagrids table thead th:first-child { border: none; }
+    .datagrids table tbody td { color: #00496B;
+                                border-left: 1px solid #E1EEF4;
+                                font-size: 14px;
+                                font-weight: normal; }
+    .datagrids table tbody .alt td { background: #E1EEF4; color: #00496B; }
+    .datagrids table tbody td:first-child { border-left: none; }
+    .datagrids table tbody tr:last-child td { border-bottom: none; }
+    .datagrids table tfoot td div { border-top: 1px solid #006699;background: #E1EEF4;} 
+    .datagrids table tfoot td { padding: 0; font-size: 12px } 
+    .datagrids table tfoot td div{ padding: 2px; }
+    .datagrids table tfoot td ul { margin: 0; padding:0; list-style: none; text-align: right; }
+    .datagrids table tfoot  li { display: inline; }
+    .datagrids table tfoot li a { text-decoration: none;
+                                  display: inline-block;
+                                  padding: 2px 8px;
+                                  margin: 1px;color: #FFFFFF;
+                                  border: 1px solid #006699;
+                                  -webkit-border-radius: 3px; 
+                                  -moz-border-radius: 3px; 
+                                  border-radius: 3px;
+                                  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #006699), color-stop(1, #00557F) );
+                                  background:-moz-linear-gradient( center top, #006699 5%, #00557F 100% );
+                                  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#006699', endColorstr='#00557F');
+                                  background-color:#006699; }
+    .datagrids table tfoot ul.active, .datagrids table tfoot ul a:hover { text-decoration: none;
+                                                                          border-color: #006699; color: #FFFFFF;
+                                                                          background: none;
+                                                                          background-color:#00557F;}
+    div.dhtmlx_window_active, div.dhx_modal_cover_dv { position: fixed !important; }
+
+}
+
+
+/* ==============================================================END SHOPPING LIST   ===================================================================================================================================-*/
+
+/* =================================================================FAMILY WALL   ===================================================================================================================================-*/
+
+
+
+.floatRight{
+
+    float:right;
+
+}
+
+.chat {
+    border:2px solid grey;
+    border-radius:6px;	
+    height:500px;
+    margin-top:20px;
+    overflow-y:scroll;
+    //width: 400px;
+}
+
+.bubble{
+    background-color: #D3DDED;
+    border-radius: 5px;
+    box-shadow: 0 0 6px #4184BF;
+    display: inline-block;
+    padding: 10px 18px;
+    position: relative;
+    vertical-align: top;
+}
+
+.bubble::before {
+    background-color: #D3DDED;
+    content: "\00a0";
+    display: block;
+    height: 16px;
+    position: absolute;
+    top: 11px;
+    transform:             rotate( 29deg ) skew( -35deg );
+    -moz-transform:    rotate( 29deg ) skew( -35deg );
+    -ms-transform:     rotate( 29deg ) skew( -35deg );
+    -o-transform:      rotate( 29deg ) skew( -35deg );
+    -webkit-transform: rotate( 29deg ) skew( -35deg );
+    width:  20px;
+}
+
+.me {
+    float: left;   
+    margin: 5px 45px 5px 20px;         
+}
+
+.me::before {
+    box-shadow: -2px 2px 2px 0 rgba( 178, 178, 178, .4 );
+    left: -9px;           
+}
+
+.you {
+    float: right;    
+    margin: 5px 20px 5px 45px;         
+}
+
+.you::before {
+    box-shadow: 2px -2px 2px 0 rgba( 178, 178, 178, .4 );
+    right: -9px;    
+}
+
+#wallfam{
+    background-color: white;
+    border:2px solid #7392BA;
+    border-radius:6px;
+    height: 880px;
+    //min-height:750px;
+    margin-top:20px;
+    overflow-y:scroll;
+}
+
+#postbutton{
+    margin-top: 10px;    
+    float:right;
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+#myPanelFamillyWall{
+    height:760px;
+
+    margin-top:40px;
+    border-radius: 15px;
+    border:2px solid #FFFFFF;
+    box-shadow: 6px 6px 8px  #FFFFFF;//  E3E0DA
+    background-color:#FFFFFF;//D9E9FF
+}
+.imgWallFit{
+    width: 100%;
+    height: 450px;
+}
+.imgWallSenderFit{
+    width: 60px;
+    height: 60px;
+
+}
+
+/* ===============================================================END FAMILY WALL   ===================================================================================================================================-*/
+
+/* =============================================================== MY PROFILE   ===================================================================================================================================-*/
+#editProfile{
+    color:#00496B;
+    border-color: transparent;
+}
+#changePassword{
+    color:#00496B;
+    border-color: transparent;
+}
+#newPassword{
+    background: white;
+    background-image: none;
+}
+#cnewPassword{
+    background: white;
+    background-image: none;
+}
+
+#oldPass{
+    background: white;
+    background-image: none;
+}
+#changePassword:hover,
+#changePassword:focus{
+    background-color: transparent;
+    text-decoration: underline;
+    border-color: transparent;
+}
+#editProfile:hover,
+#editProfile:after,
+#editProfile:focus{
+    background-color: transparent;
+    text-decoration: underline;
+    border-color: transparent;
+}
+#myPhoto{
+
+    min-height:220px;
+    margin-top:30px;
+
+}
+#messageProf{
+    margin-top:40px;
+    margin-left:30px;
+}
+
+
+#infoTable td {
+
+    padding-top:15px;
+    padding-left:20px;
+}
+#profInfo{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border:2px solid #EDF5FF;
+    border-radius: 10px;
+    box-shadow: 6px 6px 10px #EDF5FF;
+    background-color:#F5F9FF;
+
+}
+
+
+#myPanel{
+    height:600px;
+    margin-top:40px;
+    border-radius: 10px;
+    border:2px solid #ACADA8;
+    box-shadow: 9px 9px 10px  #C3C4C0;
+    background-color:#FFFFFF;
+
+}
+.myPictureFit{
+    width: 200px;
+    height: 200px;
+}
+/* ===============================================================END MY PROFILE   ===================================================================================================================================-*/
+
+/* =============================================================== MY FAMILY  ===================================================================================================================================-*/
+
+#example1 {
+    //font: normal 12px/150% Arial, Helvetica, sans-serif;
+    min-height: 400px;
+    margin-top: 80px;
+    background-image: url(images/mplamplas.png);
+    background-position:  left bottom;
+    background-repeat: no-repeat;
+    //padding: 15px;
+}
+#afterCreate {
+    //font: normal 12px/150% Arial, Helvetica, sans-serif;
+    min-height: 200px;
+
+    background-image: url(images/rgr.png);
+    background-position:  left bottom;
+    background-repeat: no-repeat;
+    //padding: 15px;
+
+}
+
+#rows{
+    background-color:#EBF5FF;
+}
+#myPhoto2{
+
+    min-height:220px;
+    margin-top:30px;
+
+    float:left;
+    padding-bottom: 10px;
+}
+.directorPictureFit{
+    width: 200px;
+    height: 160px;
+}
+.imgFit{
+    /*    width: 170px;
+        height: 140px;*/
+    width: 100%;
+    height: 150px;
+
+}
+.btnFit{
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    background-color:#D4D0BD;
+    color:black;
+
+
+}
+.btnFit:hover,
+.btnFit:focus{
+    background-color: #677A96E;
+
+
+
+}
+
+.membersPhotos{
+
+    //background-color:#627196;
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        color-stop(0.2, #677A9E),
+        color-stop(1, #122B66)
+        );
+    background-image: -o-linear-gradient(bottom, #677A96E 20%, #122B66 100%);
+    background-image: -moz-linear-gradient(bottom, #677A9E 20%, #122B66 100%);
+    background-image: -webkit-linear-gradient(bottom, #677A9E 20%, #122B66 100%);
+    background-image: -ms-linear-gradient(bottom, #677A9E 20%, #122B66 100%);
+    background-image: linear-gradient(to bottom, #677A9E 20%, #122B66 100%);
+    margin-bottom:30px;
+    margin-left:30px;
+    border-radius: 5px;
+    //box-shadow: 9px 9px 10px #BAC3D6;
+    padding-bottom: 15px;
+
+
+}
+#myPanel2{
+
+
+    margin-right:10px;
+    margin-top:0px;
+    border:2px solid #E3E0DA;//C9B899
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px #E3E0DA;
+    /*    background-color:#DBD4B3;*/
+    background-color:#E6D8AC;
+
+}
+.deletefamily{
+    background-color: #D98773;
+}
+
+.deletefamily:hover,
+.deletefamily:focus{
+    background-color: #DB6E53;
+}
+
+
+/* =============================================================== END MY FAMILY  ===================================================================================================================================-*/
+
+/* =============================================================== MY CALENDAR  ===================================================================================================================================-*/
+
+
+#calendar{
+    margin-top:40px;
+    margin-bottom:30px;
+}
+#addeventbutton{
+    margin-left:40px;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+#addviewbybutton{
+    margin-left:px;
+    margin-top:50px;
+
+}
+#messageNot{
+    margin-left:40px;
+}
+
+#printcalendarbutton{
+    margin-top:50px;
+    margin-bottom:px;
+}
+
+
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+/* ===============================================================  END MY CALENDAR  ===================================================================================================================================-*/
+
+
+/* ===============================================================   ===================================================================================================================================-*/
+
+@media print
+{
+    .non-printable { display: none; }
+    .printable { display: block; }
+}
+
+
+.contentPage{
+    min-height: 1200px;
+    /*F5E8CE*/
+    background : white;
+
+
+}
+
+/* ===============================================================  MESSAGES  ===================================================================================================================================-*/
+
+
+
+#messagepanel{
+
+    margin-left:5px;
+    margin-right:5px;
+    border-radius: 20px;
+    border:2px solid #E3E0DA;
+    box-shadow: 6px 6px 7px #E3E0DA;
+    background-color:#E3E0DA;
+}
+.senderPictureFit{
+    width: 40px;
+    height: 40px;
+}
+.choosePictureFit{
+    width: 110px;
+    height: 110px;
+}
+
+
+
+
+
+
+
